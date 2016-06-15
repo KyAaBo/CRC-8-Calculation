@@ -13,7 +13,10 @@ A practical application of this would be to have a server run the calculation be
 ```csharp
 string exampleText = "Hello world!";
 CRC8Calculation CRC = new CRC8Calculation(exampleText); //create a CRC object, passing either a string, char[], or byte[] as parameters
+
 byte crcResult = CRC.calculateCRC(); //calculate the CRC, and then store it in crcResult
+
 exampleText += crcResult.ToString; //append the CRC to the end of the data
+
 crcResult = CRC.calculateCRC(); //calculate again now that the CRC has been added, and the result should be 0 if the data has not changed
 ```

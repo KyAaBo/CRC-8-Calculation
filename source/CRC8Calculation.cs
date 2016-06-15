@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * Description: A class function is provided to calculate the 8-bit CRC of a string, char array, or byte array.
  */
 
-namespace CP222_KAB_Lab03
+namespace CRC8Calculation
 {
     class CRC8Calculation
     {

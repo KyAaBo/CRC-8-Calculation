@@ -2,7 +2,7 @@
 This class will calculate a 9-bit polynomial cyclic redundancy check value for any string, char[], or byte[]. The included application demonstrates this by calculating the CRC-8 of any .txt file imported by the user.
 
 ## Use
-The main purpose of the CRC-8 calculation class is to verify the integrity of data- especially data that is being transmitted. 
+To use the CRC8Calculation class, add 'CRC8Calculation.cs' to your project. The main purpose of the CRC-8 calculation class is to verify the integrity of data- especially data that is being transmitted. 
 
 Running the data through the CRC-8 calculation will return a value that can be placed at the end of the data. Running this data through the algorithm again at any time will return a 0 if the there is no corruption. If any of the data has changed, a value other than 0 will be returned. 
 
